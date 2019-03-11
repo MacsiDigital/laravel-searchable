@@ -17,14 +17,37 @@ composer require macsidigital/searchable
 
 ## Usage
 
+Create 2 arrays in your elequent model, the first with the fields that can be sorted, the second showing any table joins, we use the 2nd for many of our packages so we call these macsi_joins instead of genereic names like searchable_joins.
+
 ``` php
-// Usage description here
+protected $searchable = [
+    'name', 'email', 
+];
+
+protected $macsi_joins = [
+    'addresses.country' => [
+        'table_field' => 'users.id',
+        'foreign_table_field' => 'addresses.addressable_id',
+        'restrict_table_field' => 'addresses.addressable_type',
+        'restrict_value' => 'App\User'
+    ]
+];
 ```
+If no table joins are required then you will only need the searchable array.
 
-### Testing
+For any joins include the table and field seperated by a period (.).
 
-``` bash
-composer test
+Then to search the fields simply add a form and input named 'search' into your page that uses a get request.  Use the @searchableformurl to create the form request
+
+``` php
+<form class="inline-form" action="@searchableformurl()" method="GET">
+	<div class="input-group">
+	  <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search" name="search">
+	  <div class="input-group-append">
+	    <button class="btn btn-outline-secondary" type="submit" id="search"><i class="fas fa-search"></i></button>
+	  </div>
+	</div>
+</form>
 ```
 
 ### Changelog
