@@ -4,7 +4,6 @@ namespace MacsiDigital\Searchable;
 
 class SearchableFormUrl
 {
-
     /**
      * @param array $parameters
      *
@@ -12,7 +11,7 @@ class SearchableFormUrl
      */
     public static function render()
     {
-       return self::formUrl();
+        return self::formUrl();
     }
 
     private static function formUrl()
@@ -20,11 +19,12 @@ class SearchableFormUrl
         $href = '/'.request()->path().'?';
         $query = '';
         $sorts = [];
-        foreach(request()->query() as $k => $v){
-            if($k != 'search'){
+        foreach (request()->query() as $k => $v) {
+            if ($k != 'search') {
                 $href .= $k.'='.$v;
             }
         }
-        return $href;   
+
+        return $href;
     }
 }
