@@ -17,14 +17,14 @@ composer require macsidigital/searchable
 
 ## Usage
 
-Create 2 arrays in your elequent model, the first with the fields that can be sorted, the second showing any table joins, we use the 2nd for many of our packages so we call these macsi_joins instead of genereic names like searchable_joins.
+Create 2 arrays in your elequent model, the first with the fields that can be sorted, the second showing any table joins.
 
 ``` php
 protected $searchable = [
     'name', 'email', 
 ];
 
-protected $macsi_joins = [
+protected $extended_joins = [
     'addresses.country' => [
         'table_field' => 'users.id',
         'foreign_table_field' => 'addresses.addressable_id',
