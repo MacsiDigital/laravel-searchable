@@ -1,9 +1,9 @@
 # Searching eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/searchable)
-[![Build Status](https://img.shields.io/travis/macsidigital/searchable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/searchable)
-[![Quality Score](https://img.shields.io/scrutinizer/g/macsidigital/searchable.svg?style=flat-square)](https://scrutinizer-ci.com/g/macsidigital/searchable)
-[![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/searchable)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
+[![Build Status](https://img.shields.io/travis/macsidigital/searchable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/laravel-searchable)
+[![Quality Score](https://img.shields.io/scrutinizer/g/macsidigital/searchable.svg?style=flat-square)](https://scrutinizer-ci.com/g/macsidigital/laravel-searchable)
+[![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
 
 A packahge to make searching eloquent models from a single search field easier
 
@@ -12,7 +12,7 @@ A packahge to make searching eloquent models from a single search field easier
 You can install the package via composer:
 
 ```bash
-composer require macsidigital/searchable
+composer require macsidigital/laravel-searchable
 ```
 
 ## Usage
