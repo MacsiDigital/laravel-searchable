@@ -1,11 +1,11 @@
 {
-    "name": "macsidigital/searchable",
+    "name": "macsidigital/laravel-searchable",
     "description": "Search eloquent models and filter matching results for a url get request",
     "keywords": [
         "macsidigital",
-        "searchable"
+        "laravel-earchable"
     ],
-    "homepage": "https://github.com/macsidigital/searchable",
+    "homepage": "https://github.com/macsidigital/laravel-searchable",
     "license": "MIT",
     "type": "library",
     "authors": [

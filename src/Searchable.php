@@ -10,7 +10,7 @@ trait Searchable
             $query->where(function ($query) use ($term) {
                 $i = '1';
                 foreach ($this->searchable as $field) {
-                    if (array_key_exists($field, $this->extended_joins)) {
+                    if (isset($this->extended_joins) && is_array($this->extended_joins) && array_key_exists($field, $this->extended_joins)) {
                         $detail = $this->extended_joins[$field];
                         $query->join($detail['foreign_table'], $detail['table_field'], $detail['foreign_table_field']);
                     }
