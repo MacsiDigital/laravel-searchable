@@ -1,9 +1,8 @@
 # Searching eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
-[![Build Status](https://img.shields.io/travis/macsidigital/searchable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/laravel-searchable)
-[![Quality Score](https://img.shields.io/scrutinizer/g/macsidigital/searchable.svg?style=flat-square)](https://scrutinizer-ci.com/g/macsidigital/laravel-searchable)
-[![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/laravel-searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
+[![Build Status](https://img.shields.io/travis/macsidigital/laravel-searchable/master.svg?style=flat-square)](https://travis-ci.org/MacsiDigital/laravel-resultable)
+[![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/laravel-searchable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-searchable)
 
 A packahge to make searching eloquent models from a single search field easier
 
