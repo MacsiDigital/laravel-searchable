@@ -20,6 +20,7 @@ class SearchableFormUrl
                 $href .= $k.'='.$v;
             }
         }
+        
         return $href;
     }
 }
