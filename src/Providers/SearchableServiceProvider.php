@@ -45,7 +45,7 @@ class SearchableServiceProvider extends ServiceProvider
             // $this->commands([]);
         }
 
-        Blade::directive('searchableformurl', function ($expression) {
+        Blade::directive('searchableformurl', function () {
             return "<?php echo \MacsiDigital\Searchable\SearchableFormUrl::render();?>";
         });
     }
