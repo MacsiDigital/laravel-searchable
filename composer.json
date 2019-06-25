@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\Searchable\\SearchableServiceProvider"
+                "MacsiDigital\\Searchable\\Providers\\SearchableServiceProvider"
             ],
             "aliases": {
-                "Searchable": "MacsiDigital\\Searchable\\SearchableFacade"
+                "Searchable": "MacsiDigital\\Searchable\\Facades\\Searchable"
             }
         }
     }

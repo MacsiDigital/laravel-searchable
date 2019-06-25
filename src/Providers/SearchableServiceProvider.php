@@ -1,9 +1,10 @@
 <?php
 
-namespace MacsiDigital\Searchable;
+namespace MacsiDigital\Searchable\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use MacsiDigital\Searchable\Searchable;
 
 class SearchableServiceProvider extends ServiceProvider
 {
@@ -22,7 +23,7 @@ class SearchableServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('searchable.php'),
+                __DIR__.'/../../config/config.php' => config_path('searchable.php'),
             ], 'config');
 
             // Publishing the views.
@@ -55,7 +56,7 @@ class SearchableServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'searchable');
+        $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'searchable');
 
         // Register the main class to use with the facade
         $this->app->singleton('searchable', function () {

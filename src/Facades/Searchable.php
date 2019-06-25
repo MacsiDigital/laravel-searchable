@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Searchable;
+namespace MacsiDigital\Searchable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Macsidigital\Searchable\Skeleton\SkeletonClass
  */
-class SearchableFacade extends Facade
+class Searchable extends Facade
 {
     /**
      * Get the registered name of the component.
