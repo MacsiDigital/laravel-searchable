@@ -1,19 +1,27 @@
 # Changelog
 
-All notable changes to `searchable` will be documented in this file
+All notable changes to `laravel-searchable` will be documented in this file
 
-## 1.0.3 - 2019-06-24
+## 1.0.5 - 2019-xx-xx
 
-- Update joins array to extended_joins - in preperation for addition of extended packet.
+- 
 
-## 1.0.2 - 2019-03-25
+## 1.0.4 - 2019-06-25
 
-- Styles update
+- Document updates
 
-## 1.0.1 - 2019-03-19
+## 1.0.3 - 2019-06-25
 
-- Readme update
+- Document updates
 
-## 1.0.0 - 2019-03-11
+## 1.0.2 - 2019-06-25
+
+- Document updates
+
+## 1.0.1 - 2019-06-25
+
+- Document updates
+
+## 1.0.0 - 2019-06-25
 
 - initial release
