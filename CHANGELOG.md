@@ -2,9 +2,13 @@
 
 All notable changes to `laravel-searchable` will be documented in this file
 
-## 1.0.5 - 2019-xx-xx
+## 1.0.6 - 2019-06-26
 
-- 
+- Document updates
+
+## 1.0.5 - 2019-06-25
+
+- Document updates
 
 ## 1.0.4 - 2019-06-25
 
@@ -24,4 +28,4 @@ All notable changes to `laravel-searchable` will be documented in this file
 
 ## 1.0.0 - 2019-06-25
 
-- initial release
+- Initial release

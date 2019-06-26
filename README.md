@@ -16,6 +16,14 @@ You can install the package via composer:
 composer require macsidigital/laravel-searchable
 ```
 
+The service provider should automatically register for For Laravel > 5.4.
+
+For Laravel < 5.5, open config/app.php and, within the providers array, append:
+
+``` php
+MacsiDigital\Searchable\Providers\SearchableServiceProvider::class
+```
+
 ## Usage
 
 Create 2 arrays in your elequent model, the first with the fields that can be sorted, the second showing any table joins.
